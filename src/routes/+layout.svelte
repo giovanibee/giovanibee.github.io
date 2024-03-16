@@ -1,8 +1,14 @@
 <script>
   import "../app.pcss";
-  import pattern from '../lib/images/noveu_pattern_6.webp';
+  import pattern from '../lib/images/patterns/noveu_pattern_6.webp';
 </script>
 <img src={pattern} alt="background pattern" class="bg-pattern" />
+
+<nav class='bg-white p-2 shadow-inner'>
+  <a href='/'>home</a>
+  <a href='/resume'>resume</a>
+  <a href='/floriography'>floriography</a>
+</nav>
 
 <slot>
 </slot>

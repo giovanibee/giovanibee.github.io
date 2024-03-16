@@ -12,7 +12,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: dev ? "\"" : "/giovanibee.github.io",
+            // base: dev ? "\"" : "/giovanibee.github.io",
         },
         // hydrate the <div id="svelte"> element in src/app.html
         // target: "#svelte"

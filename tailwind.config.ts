@@ -18,7 +18,7 @@ const config = {
 	theme: {
 		extend: {
 			boxShadow: {
-				'inner': 'inset 3px -4px 20px 7px rgba(28, 56, 100, 0.56), inset -4px 3px 28px 7px rgba(200,0,0,0.5)',
+				'inner': 'inset 3px -4px 20px 0.1px rgba(28, 56, 100, 0.56), inset -4px 3px 28px 1px rgba(200,0,0,0.5)',
 			},
 		},
 	},
