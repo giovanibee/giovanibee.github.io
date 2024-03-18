@@ -9,8 +9,9 @@
   class="bg-white/[0.96] card container mx-auto mt-16 p-8 rounded-md space-y-8 shadow-xl"
 >
 	<div class="card-header">
+      <!-- make name have animated background at some point?? -->
       <span class="surfer-font text-4xl">giovani barrios-arciga</span>
-      <p class="text-xl text-gray-400">software engineer</p>
+      <p class="text-xl text-gray-400">fullstack software engineer</p>
   </div>
   <div class="card-body">
     <p class="pl-4 pb-5">
