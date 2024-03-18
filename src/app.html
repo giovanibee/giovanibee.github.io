@@ -1,12 +1,24 @@
 <!doctype html>
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Italiana&family=Mansalva&family=Poiret+One&family=Sen:wght@400..800&display=swap" rel="stylesheet">
 	</head>
-	<body style="background-color: #5f0070;" data-theme="skeleton">
+	<body id="svelte-app-body">
 		<div>%sveltekit.body%</div>
 	</body>
 </html>
+
+<style>
+	#svelte-app-body {
+		background-color: linear-gradient(to bottom, rgb(200, 200, 1), rgb(100, 20, 2));
+		font-family: "Sen", sans-serif;
+		font-optical-sizing: auto;
+	}
+</style>
