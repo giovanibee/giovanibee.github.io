@@ -25,9 +25,9 @@
     font-style: normal;
   }
   .bg-pattern {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
+    -webkit-clip-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,1)));
     mask-image: linear-gradient(to bottom,
-      rgba(0,0,0,0), rgba(0,0,0,0.01), rgba(0,0,0,0.1), rgba(0,0,0,0.2), rgba(0,0,0,0.8)
+      rgba(0,0,0,0), rgba(0,0,0,0.05), rgba(0,0,0,0.1), rgba(0,0,0,0.2), rgba(0,0,0,0.8)
     );
     height: 100%;
     object-fit: cover;

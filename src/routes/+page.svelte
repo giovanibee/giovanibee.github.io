@@ -11,7 +11,7 @@
 	<div class="card-header">
       <!-- make name have animated background at some point?? -->
       <span class="surfer-font text-4xl">giovani barrios-arciga</span>
-      <p class="text-xl text-gray-400">fullstack software engineer</p>
+      <p class="pl-10 text-xl text-gray-400">software engineer</p>
   </div>
   <div class="card-body">
     <p class="pl-4 pb-5">
@@ -93,10 +93,27 @@
 </div>
 
 <style>
+  /* bg text animation derived from here:
+  https://web.dev/articles/speedy-css-tip-animated-gradient-text */
   .surfer-font {
+    animation: move-bg 10s infinite linear;
+    background: linear-gradient(
+                90deg,
+                teal,
+                purple,
+                teal
+              ) 0 0 / 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-family: "Sen", sans-serif;
-    color: teal;
+    font-size: clamp(3rem, 25vmin, 3rem);
     font-weight: 600;
-    font-style: normal;
   }
+
+    @keyframes move-bg {
+      to {
+        background-position: 400% 0;
+      }
+    }
 </style>
